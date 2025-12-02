@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima Asim - Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0c0c16;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #5a189a;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #fff;
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c77dff;
+        }
+
+        section {
+            padding: 80px 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #c77dff;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #e2e2e2;
+        }
+
+        img {
+            border-radius: 15px;
+            width: 200px;
+            border: 3px solid #c77dff;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #c77dff;
+            color: #000;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #e0aaff;
+        }
+
+        .skill-box {
+            background: #1a1a2e;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 5px solid #c77dff;
+            border-radius: 5px;
+            text-align: left;
+        }
+
+        .contact-box {
+            background: #1a1a2e;
+            padding: 20px;
+            border-left: 5px solid #c77dff;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Fatima Asim</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <!-- YOUR IMAGE INSERTED HERE -->
+    <img src="picture.jpg" alt="Your Photo">
+
+    <h2>Hello, my name is Fatima Asim.</h2>
+
+    <p>I’m a BS Computer Science student who loves programming and web design.</p>
+
+    <a href="#skills" class="btn">My Skills</a>
+    <a href="#contact" class="btn" style="background:#fff; color:#5a189a;">Contact Me</a>
+</section>
+
+<section id="about">
+    <h2 style="color:#c77dff;">About Me</h2>
+
+    <p style="max-width:700px; margin:auto; font-size:17px; color:#e2e2e2;">
+        My name is Fatima Asim. I am a BS CS student who enjoys learning new technologies,
+        practicing coding, and creating simple, clean website designs.
+        I love teamwork and helping classmates during group projects.
+    </p>
+</section>
+
+<section id="skills">
+    <h2 style="color:#c77dff;">My Skills</h2>
+
+    <div class="skill-box">
+        <h3>HTML & CSS (Beginner)</h3>
+        <p>I can create neat and structured webpages.</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>MS Office</h3>
+        <p>Skilled in Word, PowerPoint and basic Excel.</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>Basic Programming (C++)</h3>
+        <p>I can write beginner-level code like loops, arrays and functions.</p>
+    </div>
+
+    <div class="skill-box">
+        <h3>Canva Designing</h3>
+        <p>I create simple posters and presentations.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 style="color:#c77dff;">Contact Me</h2>
+
+    <div class="contact-box">
+        <p><strong>Email:</strong> 
+            <a href="mailto:fatima.asim123@gmail.com" style="color:#c77dff;">fatima.asim123@gmail.com</a>
+        </p>
+
+        <p><strong>Phone:</strong> 
+            <a href="tel:03127623459" style="color:#c77dff;">0312-7623459</a>
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
